@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import { Drawer, Navbar } from '$lib/components';
+</script>
+
+<Navbar />
+<Drawer>
+	<span class="text-3xl">Hola hisvelte</span>
+</Drawer>
+
+<style>
+	.view {
+		height: 100vh;
+	}
+</style>
